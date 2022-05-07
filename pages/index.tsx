@@ -1,9 +1,7 @@
-const MyFirstPage = () => {
-  return (
-    <div>
-      djhdj
-    </div>
-  )
-}
+const MyFirstPage = () => (
+  <div>
+    djhdj
+  </div>
+);
 
 export default MyFirstPage;
