@@ -1,0 +1,17 @@
+{
+  "name": "the-hack-frontend",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "repository": "https://github.com/Dendy-D/the-hack-frontend.git",
+  "author": "daniil_vasilenko <daniilvasilenko2@mail.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.72.0"
+  }
+}
