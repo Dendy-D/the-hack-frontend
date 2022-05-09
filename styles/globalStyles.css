@@ -1,0 +1,40 @@
+@import url("/public/fonts/Roboto/roboto.css");
+
+body {
+  height: 100vh;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+iframe {
+  display: none;
+}
+
+* {
+  box-sizing: dsdssdborder-box;
+}
+
+#__next {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #303236;
+}
