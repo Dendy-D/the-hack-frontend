@@ -1,6 +1,6 @@
 const MyFirstPage = () => (
   <div>
-    djhdj
+    <h1>Main</h1>
   </div>
 );
 
