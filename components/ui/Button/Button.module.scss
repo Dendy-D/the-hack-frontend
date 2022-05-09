@@ -1,0 +1,193 @@
+@import "../../../public/themes/colors.scss";
+
+.component {
+  $c: &;
+
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  color: $white;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 700;
+  appearance: none;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+  border: none;
+  background-color: $primary-color-500;
+
+  &.small {
+    font-size: 14px;
+    padding: 4px 20px;
+
+    &#{$c}.primary {
+      background-color: $primary-color-500;
+    }
+
+    &#{$c}.sky {
+      background-color: $primary-color-300;
+    }
+
+    &#{$c}.danger {
+      background-color: $attention-color-200;
+    }
+
+    &#{$c}.outline {
+      color: $black;
+      background: none;
+      background-color: transparent;
+
+      &#{$c}.primary {
+        border: 1px solid $primary-color-500;
+      }
+
+      &#{$c}.sky {
+        border: 1px solid $primary-color-300;
+      }
+
+      &#{$c}.danger {
+        border: 1px solid $attention-color-200;
+      }
+    }
+    &#{$c}.circle {
+      width: 30px;
+      height: 30px;
+      padding: 20px;
+      border-radius: 100%;
+    }
+
+    &#{$c}.text {
+      color: $black;
+      padding: 5px;
+      background: none;
+      background-color: transparent;
+    }
+
+    &#{$c}.verticallySky {
+      background: $sky-verticaly-gradient;
+    }
+
+    &#{$c}.verticallyPrimary {
+      background: $primary-verticaly-gradient;
+    }
+  }
+
+  &.medium {
+    font-size: 16px;
+    padding: 15px 40px;
+
+    &#{$c}.primary {
+      background-color: $primary-color-500;
+    }
+
+    &#{$c}.sky {
+      background-color: $primary-color-300;
+    }
+
+    &#{$c}.danger {
+      background-color: $attention-color-200;
+    }
+
+    &#{$c}.outline {
+      color: $black;
+      background: none;
+      background-color: transparent;
+
+      &#{$c}.primary {
+        border: 1px solid $primary-color-500;
+      }
+
+      &#{$c}.sky {
+        border: 1px solid $primary-color-300;
+      }
+
+      &#{$c}.danger {
+        border: 1px solid $attention-color-200;
+      }
+    }
+
+    &#{$c}.circle {
+      width: 50px;
+      height: 50px;
+      padding: 20px;
+      border-radius: 100%;
+    }
+
+    &#{$c}.text {
+      color: $black;
+      padding: 5px;
+      background: none;
+      background-color: transparent;
+    }
+
+    &#{$c}.verticallySky {
+      background: $sky-verticaly-gradient;
+    }
+
+    &#{$c}.verticallyPrimary {
+      background: $primary-verticaly-gradient;
+    }
+  }
+
+  &.large {
+    font-size: 24px;
+    padding: 15px 40px;
+
+    &#{$c}.primary {
+      background-color: $primary-color-500;
+    }
+
+    &#{$c}.sky {
+      background-color: $primary-color-300;
+    }
+
+    &#{$c}.danger {
+      background-color: $attention-color-200;
+    }
+
+    &#{$c}.outline {
+      color: $black;
+      background: none;
+      background-color: transparent;
+
+      &#{$c}.primary {
+        border: 1px solid $primary-color-500;
+      }
+
+      &#{$c}.sky {
+        border: 1px solid $primary-color-300;
+      }
+
+      &#{$c}.danger {
+        border: 1px solid $attention-color-200;
+      }
+    }
+
+    &#{$c}.circle {
+      width: 70px;
+      height: 70px;
+      padding: 20px;
+      border-radius: 100%;
+    }
+
+    &#{$c}.text {
+      color: $black;
+      padding: 5px;
+      background: none;
+      background-color: transparent;
+    }
+
+    &#{$c}.verticallySky {
+      background: $sky-verticaly-gradient;
+    }
+
+    &#{$c}.verticallyPrimary {
+      background: $primary-verticaly-gradient;
+    }
+  }
+}
