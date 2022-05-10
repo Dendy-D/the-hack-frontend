@@ -1,0 +1,36 @@
+@import "../../public/themes/colors.scss";
+
+.component {
+  display: flex;
+  justify-content: space-between;
+  width: 534px;
+
+  a {
+    position: relative;
+    padding: 5px 10px;
+
+    &:hover {
+      color: $white;
+    }
+
+    &:hover::before {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: block;
+      transition: transform 0.3s ease;
+      transform: scaleX(0);
+      transform-origin: bottom right;
+      background-color: $primary-color-500;
+      z-index: -1;
+    }
+  }
+}

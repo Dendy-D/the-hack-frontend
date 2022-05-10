@@ -1,6 +1,8 @@
+import Header from '../components/ui/Header';
+
 const MyFirstPage = () => (
   <div>
-    <h1>Main</h1>
+    <Header />
   </div>
 );
 
