@@ -1,0 +1,13 @@
+.component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1120px;
+  height: 82px;
+  margin: 40px auto 0;
+  border-radius: 10px;
+
+  .logo {
+    margin-right: 220px;
+  }
+}
